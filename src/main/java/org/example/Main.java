@@ -1,9 +1,7 @@
 package org.example;
-
 import java.sql.SQLException;
 import java.util.Scanner;
 import java.util.logging.Logger;
-
 public class Main {
     public static void main(String[] args) throws SQLException {
         Scanner Se = new Scanner(System.in);
@@ -31,45 +29,43 @@ public class Main {
                     objTictac.Tictacmain();
                 }
                 case 5 -> {
-                    ShapeMain ObjShape = new ShapeMain();
-                    ObjShape.Shapemain();
+                    ShapeMain objShape = new ShapeMain();
+                    objShape.Shapemain();
 
                 }
                 case 6 -> {
-                    CalculatorMain ObjCalculator = new CalculatorMain();
-                    ObjCalculator.CalculatorMain();
+                    CalculatorMain objCalculator = new CalculatorMain();
+                    objCalculator.CalculatorMain();
 
                 }case 7 -> {
-                    FileMain ObjFileMain = new FileMain();
-                    ObjFileMain.File();
+                    FileMain objFileMain = new FileMain();
+                    objFileMain.File();
                 }case 8 -> {
-                    CardMain ObjCardMain = new CardMain();
-                    ObjCardMain.myclone();
+                    CardMain objCardMain = new CardMain();
+                    objCardMain.myclone();
 
                 }case 9 -> {
-                    DC ObjDC = new DC();
-                    ObjDC.DataBaseMain();
+                    DC objDC = new DC();
+                    objDC.DataBaseMain();
                 }case 10 -> {
-                    GpaMain ObjGpa = new GpaMain();
-                    ObjGpa.GpaMain();
+                    GpaMain objGpa = new GpaMain();
+                    objGpa.GpaMain();
                 }case 11 -> {
-                    StudentGpaMain ObjStudentGpa = new StudentGpaMain();
-                    ObjStudentGpa.StudentGpaMain();
+                    StudentGpaMain objStudentGpa = new StudentGpaMain();
+                    objStudentGpa.StudentGpaMain();
                 }
                 case 12 -> {
-                    Hashmap ObjHashmap = new Hashmap();
-                    ObjHashmap.Hashmapmain();
+                    Hashmap objHashmap = new Hashmap();
+                    objHashmap.Hashmapmain();
                 }case 13 -> {
-                    Hashset ObjHashset = new Hashset();
-                    ObjHashset.Hashsetmain();
+                    Hashset objHashset = new Hashset();
+                    objHashset.Hashsetmain();
                 }case 14 ->{
-                    Treeset ObjTreeset = new Treeset();
-                    ObjTreeset.Treesetmain();
+                    Treeset objTreeset = new Treeset();
+                    objTreeset.Treesetmain();
                 }
                 default -> l.info("Wrong choice");
             }
         } while (Choice < 15);
-
     }
-
-    }
+}
