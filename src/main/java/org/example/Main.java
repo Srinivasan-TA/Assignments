@@ -15,20 +15,20 @@ public class Main {
             Choice = Se.nextInt();
             switch (Choice) {
                 case 1 -> {
-                    BankMain ObjBank = new BankMain();
-                    ObjBank.Bankmain();
+                    BankMain objBank = new BankMain();
+                    objBank.Bankmain();
                 }
                 case 2 -> {
-                    Basicpointmain ObjBasicpoint = new Basicpointmain();
-                    ObjBasicpoint.Basicpoint();
+                    Basicpointmain objBasicpoint = new Basicpointmain();
+                    objBasicpoint.Basicpoint();
                 }
                 case 3 -> {
-                    ContactList ObjContactList = new ContactList();
-                    ObjContactList.ContactListmain();
+                    ContactList objContactList = new ContactList();
+                    objContactList.ContactListmain();
                 }
                 case 4 -> {
-                    Tictac ObjTictac = new Tictac();
-                    ObjTictac.Tictacmain();
+                    Tictac objTictac = new Tictac();
+                    objTictac.Tictacmain();
                 }
                 case 5 -> {
                     ShapeMain ObjShape = new ShapeMain();
