@@ -1,8 +1,5 @@
 package org.example;
 
-import java.util.*;
-import java.util.logging.Logger;
-
 public class Shape {
     private String shapeType;
     private double[] shapeDimensions;

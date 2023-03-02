@@ -1,11 +1,5 @@
 package org.example;
 
-
-import java.util.Collections;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.logging.Logger;
-
 class StudentGpa {
     private String name;
     private int age;
