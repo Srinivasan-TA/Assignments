@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 class BankMain {
-    public  void Bankmain() {
+    public  void bankmain() {
         Logger l = Logger.getLogger("com.api.jar");
         Scanner se = new Scanner(System.in);
 
@@ -42,7 +42,6 @@ class BankMain {
                         break;
                     }
                     default:
-//                        se.close();
                 }
             }while(ch<4);
     }

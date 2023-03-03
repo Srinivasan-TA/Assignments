@@ -14,7 +14,7 @@ public class Main {
             switch (Choice) {
                 case 1 -> {
                     BankMain objBank = new BankMain();
-                    objBank.Bankmain();
+                    objBank.bankmain();
                 }
                 case 2 -> {
                     Basicpointmain objBasicpoint = new Basicpointmain();
