@@ -30,7 +30,7 @@ public class Main {
                 }
                 case 5 -> {
                     ShapeMain objShape = new ShapeMain();
-                    objShape.Shapemain();
+                    objShape.shapemain();
 
                 }
                 case 6 -> {

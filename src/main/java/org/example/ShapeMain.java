@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class ShapeMain {
-    public void Shapemain() {
+    public void shapemain() {
         Logger l = Logger.getLogger("com.api.jar");
         Scanner sc=new Scanner(System.in);
         try {
