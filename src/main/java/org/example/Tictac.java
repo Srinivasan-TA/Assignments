@@ -4,8 +4,8 @@ import java.util.logging.Logger;
 public class Tictac {
 
      Scanner input = new Scanner(System.in);
-    public char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
-    public char player = 'O';
+    private char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+    private char player = 'O';
     public void tictacmain() {
         Logger l = Logger.getLogger("com.api.jar");
         int count=0;
