@@ -26,12 +26,8 @@ public class Tictac {
                 l.info(s);
                 break;
             }
-            if (player == 'O') {
-                player = 'X';
-            } else {
-                player = 'O';
-            }
 
+            player = (player == 'O') ? 'X' : 'O';
         }
         if(count==9){
             System.out.println("draw");
