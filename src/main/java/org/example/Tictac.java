@@ -3,9 +3,9 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 public class Tictac {
 
-    static Scanner input = new Scanner(System.in);
-    static char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
-    static char player = 'O';
+     Scanner input = new Scanner(System.in);
+    public char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+    public char player = 'O';
     public void tictacmain() {
         Logger l = Logger.getLogger("com.api.jar");
         int count=0;
@@ -33,16 +33,16 @@ public class Tictac {
             l.info("draw");
         }
     }
-    static boolean isValidMove(int row, int col) {
+    public boolean isValidMove(int row, int col) {
         return row >= 0 && row < 3 && col >= 0 && col < 3 && board[row][col] == ' ';
     }
-    static boolean isWinningMove(int row, int col) {
+     public boolean isWinningMove(int row, int col) {
         return (board[0][col] == player && board[1][col] == player && board[2][col] == player) ||
                 (board[row][0] == player && board[row][1] == player && board[row][2] == player) ||
                 (row == col && board[0][0] == player && board[1][1] == player && board[2][2] == player) ||
                 (row + col == 2 && board[0][2] == player && board[1][1] == player && board[2][0] == player);
     }
-    static void printBoard() {
+    public void printBoard() {
         Logger l = Logger.getLogger("com.api.jar");
 
         l.info("  1 2 3");
