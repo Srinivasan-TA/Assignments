@@ -13,8 +13,8 @@ class GpaMain {
             l.info("enter your grade level :");
             int gradelevel = se.nextInt();
             l.info("Type the gpa :");
-            double gpa = se.nextDouble();
-            Gpa student = new Gpa(name, gradelevel, gpa);
+            double gradepointaverage = se.nextDouble();
+            Gpa student = new Gpa(name, gradelevel, gradepointaverage);
             l.info(student.getInfo());
             student.updateGPA(3.7);
             l.info(student.getInfo());

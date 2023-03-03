@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class Hashmap {
 
-    public  void Hashmapmain() {
+    public  void hashmapmain() {
         Logger l = Logger.getLogger("com.api.jar");
         HashMap<Integer, String> students = new HashMap<>();
         students.put(100, "Abisha");

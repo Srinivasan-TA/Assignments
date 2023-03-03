@@ -56,10 +56,10 @@ public class Main {
                 }
                 case 12 -> {
                     Hashmap objHashmap = new Hashmap();
-                    objHashmap.Hashmapmain();
+                    objHashmap.hashmapmain();
                 }case 13 -> {
                     Hashset objHashset = new Hashset();
-                    objHashset.Hashsetmain();
+                    objHashset.hashsetmain();
                 }case 14 ->{
                     Treeset objTreeset = new Treeset();
                     objTreeset.treesetmain();

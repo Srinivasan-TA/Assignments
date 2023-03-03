@@ -5,7 +5,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Hashset {
-    public  void Hashsetmain() {
+    public  void hashsetmain() {
         Logger l = Logger.getLogger("com.api.jar");
         HashSet<String> cites=new HashSet<String>();
         cites.add("Tanjore");
