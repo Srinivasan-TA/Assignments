@@ -15,8 +15,8 @@ class DC {
         l.info("Enter the password");
         Scanner sc = new Scanner(System.in);
         String pass = sc.next();
-        Connection connection = DriverManager.getConnection(url, user, pass);
-        Statement statement = connection.createStatement();
+        Connection con = DriverManager.getConnection(url, user, pass);
+        Statement statement = con.createStatement();
         ResultSet resultSet = statement.executeQuery("Select * from student");
         while (resultSet.next()) {
             l.info(resultSet.getString("name"));
