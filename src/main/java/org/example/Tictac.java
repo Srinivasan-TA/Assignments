@@ -48,10 +48,8 @@ public class Tictac {
         l.info("  1 2 3");
         for (int i = 0; i < 3; i++) {
            String d = i + 1 + " ";
-         //   l.info((d);
             for (int j = 0; j < 3; j++) {
                 String b =board[i][j] + " ";
-              //  l.info((b);
             }
             l.info("\n");
         }
