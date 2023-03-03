@@ -17,7 +17,7 @@ public class ContactList {
             this.email = email;
         }
     }
-    public  void ContactListmain() {
+    public  void contactListmain() {
         Scanner sc = new Scanner(System.in);
         int choice = 0;
         while (choice != 4) {

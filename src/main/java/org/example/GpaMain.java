@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 class GpaMain {
-    public  void GpaMain() {
+    public  void gpamain() {
         Logger l = Logger.getLogger("com.api.jar");
         Scanner se = new Scanner(System.in);
         try {

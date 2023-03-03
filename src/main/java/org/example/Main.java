@@ -4,14 +4,14 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 public class Main {
     public static void main(String[] args) throws SQLException {
-        Scanner Se = new Scanner(System.in);
+        Scanner se = new Scanner(System.in);
         Logger l = Logger.getLogger("Main");
 
-        int Choice;
+        int choice;
         do {
             l.info("\n 1. Bank \n 2.BasicPoint \n 3.Contact \n 4.TicTac \n 5.Shape \n 6.Calculator \n 7.FileReader \n 8.Card \n 9.DataBase \n 10.Update GPA \n 11.DescendingGPA \n 12.Hashmap \n 13.Hashset \n 14.TreeSet \nenter your Choice:");
-            Choice = Se.nextInt();
-            switch (Choice) {
+            choice = se.nextInt();
+            switch (choice) {
                 case 1 -> {
                     BankMain objBank = new BankMain();
                     objBank.bankmain();
@@ -22,7 +22,7 @@ public class Main {
                 }
                 case 3 -> {
                     ContactList objContactList = new ContactList();
-                    objContactList.ContactListmain();
+                    objContactList.contactListmain();
                 }
                 case 4 -> {
                     Tictac objTictac = new Tictac();
@@ -46,10 +46,10 @@ public class Main {
 
                 }case 9 -> {
                     DC objDC = new DC();
-                    objDC.DataBaseMain();
+                    objDC.dataBaseMain();
                 }case 10 -> {
                     GpaMain objGpa = new GpaMain();
-                    objGpa.GpaMain();
+                    objGpa.gpamain();
                 }case 11 -> {
                     StudentGpaMain objStudentGpa = new StudentGpaMain();
                     objStudentGpa.StudentGpaMain();
@@ -66,6 +66,6 @@ public class Main {
                 }
                 default -> l.info("Wrong choice");
             }
-        } while (Choice < 15);
+        } while (choice < 15);
     }
 }

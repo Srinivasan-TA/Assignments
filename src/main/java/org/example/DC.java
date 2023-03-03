@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 class DC {
 
-    public  void DataBaseMain() throws SQLException {
+    public  void dataBaseMain() throws SQLException {
         DC n = DC.getInstance();
         Logger l = Logger.getLogger("com.api.jar");
         String url = "jdbc:mysql://localhost:3306/jdbc";
