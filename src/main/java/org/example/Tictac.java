@@ -11,10 +11,10 @@ public class Tictac {
         int count=0;
         while (count!=9) {
             count++;
-            System.out.println("Current board: ");
+            l.info("Current board: ");
             printBoard();
             String z ="Player " + player + " turn. Enter row and column: ";
-            System.out.println(z);
+            l.info(z);
             int row = input.nextInt() - 1;
             int col = input.nextInt() - 1;
             if (!isValidMove(row, col)) {
@@ -30,7 +30,7 @@ public class Tictac {
             player = (player == 'O') ? 'X' : 'O';
         }
         if(count==9){
-            System.out.println("draw");
+            l.info("draw");
         }
     }
     static boolean isValidMove(int row, int col) {
@@ -45,15 +45,15 @@ public class Tictac {
     static void printBoard() {
         Logger l = Logger.getLogger("com.api.jar");
 
-        System.out.println("  1 2 3");
+        l.info("  1 2 3");
         for (int i = 0; i < 3; i++) {
            String d = i + 1 + " ";
-            System.out.print(d);
+         //   l.info((d);
             for (int j = 0; j < 3; j++) {
                 String b =board[i][j] + " ";
-                System.out.print(b);
+              //  l.info((b);
             }
-            System.out.print("\n");
+            l.info("\n");
         }
     }
 }
