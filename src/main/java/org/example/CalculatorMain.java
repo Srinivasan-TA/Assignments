@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 import java.util.logging.Logger;
 public class CalculatorMain {
-    public  void CalculatorMain() {
+    public  void calculatormain() {
         Logger l = Logger.getLogger("com.api.jar");
         l.info("Simple Calculator");
         Scanner sc = new Scanner(System.in);
@@ -35,7 +35,6 @@ public class CalculatorMain {
                     c = new Division();
                     break;
                 default:
-//                    // sc.close();();
                     System.exit(0);
                     l.info("Invalid choice");
                     System.exit(0);

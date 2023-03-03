@@ -18,7 +18,7 @@ public class Main {
                 }
                 case 2 -> {
                     Basicpointmain objBasicpoint = new Basicpointmain();
-                    objBasicpoint.Basicpoint();
+                    objBasicpoint.basicpoint();
                 }
                 case 3 -> {
                     ContactList objContactList = new ContactList();
@@ -35,7 +35,7 @@ public class Main {
                 }
                 case 6 -> {
                     CalculatorMain objCalculator = new CalculatorMain();
-                    objCalculator.CalculatorMain();
+                    objCalculator.calculatormain();
 
                 }case 7 -> {
                     FileMain objFileMain = new FileMain();
