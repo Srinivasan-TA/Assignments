@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class StudentGpaMain {
-        public  void StudentGpaMain() {
+        public  void studentgpamain() {
             Logger l = Logger.getLogger("com.api.jar");
             List<StudentGpa> students = new ArrayList<>();
             students.add(new StudentGpa("Sri", 22, 4.5));

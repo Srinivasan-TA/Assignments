@@ -39,7 +39,7 @@ public class Main {
 
                 }case 7 -> {
                     FileMain objFileMain = new FileMain();
-                    objFileMain.File();
+                    objFileMain.file();
                 }case 8 -> {
                     CardMain objCardMain = new CardMain();
                     objCardMain.myclone();
@@ -52,7 +52,7 @@ public class Main {
                     objGpa.gpamain();
                 }case 11 -> {
                     StudentGpaMain objStudentGpa = new StudentGpaMain();
-                    objStudentGpa.StudentGpaMain();
+                    objStudentGpa.studentgpamain();
                 }
                 case 12 -> {
                     Hashmap objHashmap = new Hashmap();

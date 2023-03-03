@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 import java.util.logging.Logger;
 public class FileMain {
-    public  void File() {
+    public void file() {
         String se ="C:\\Users\\srini\\Downloads\\new.txt";
         String fileName = se;
        HashMap<String, Integer> newkey = new HashMap<>();
