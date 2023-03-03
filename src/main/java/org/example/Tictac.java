@@ -6,7 +6,7 @@ public class Tictac {
     static Scanner input = new Scanner(System.in);
     static char[][] board = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
     static char player = 'O';
-    public void Tictacmain() {
+    public void tictacmain() {
         Logger l = Logger.getLogger("com.api.jar");
         int count=0;
         while (count!=9) {
@@ -20,13 +20,18 @@ public class Tictac {
             if (!isValidMove(row, col)) {
                 l.info("Invalid move. Try again.");
             }
-            board[row][col] = player;
+             board[row][col] = player;
             if (isWinningMove(row, col)) {
                 String s="Match Over \n Player " + player + " wins!";
                 l.info(s);
                 break;
             }
-            player = (player == 'O') ? 'X' : 'O';
+            if (player == 'O') {
+                player = 'X';
+            } else {
+                player = 'O';
+            }
+
         }
         if(count==9){
             System.out.println("draw");

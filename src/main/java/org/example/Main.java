@@ -26,7 +26,7 @@ public class Main {
                 }
                 case 4 -> {
                     Tictac objTictac = new Tictac();
-                    objTictac.Tictacmain();
+                    objTictac.tictacmain();
                 }
                 case 5 -> {
                     ShapeMain objShape = new ShapeMain();
@@ -62,7 +62,7 @@ public class Main {
                     objHashset.Hashsetmain();
                 }case 14 ->{
                     Treeset objTreeset = new Treeset();
-                    objTreeset.Treesetmain();
+                    objTreeset.treesetmain();
                 }
                 default -> l.info("Wrong choice");
             }

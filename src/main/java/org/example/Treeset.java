@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Treeset {
-    public  void Treesetmain() {
+    public  void treesetmain() {
         Logger l = Logger.getLogger("com.api.jar");
         TreeSet<String> states=new TreeSet<String>();
         states.add("TN");
